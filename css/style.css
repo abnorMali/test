@@ -1,0 +1,89 @@
+body {
+    font: 13px/1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+}
+
+.boxes {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.b50 {
+    width: 400px;
+    float: left;
+    margin-left: 15px;
+}
+
+.b50:first-child {
+    margin-left: 0;
+}
+
+#drop-area {
+    height: 50px;
+    text-align: center;
+    border: 2px dashed #ddd;
+    padding: 10px;
+    margin-bottom: 2em;
+}
+
+#drop-area .drop-instructions {
+    display: block;
+    height: 30px;
+}
+
+#drop-area .drop-over {
+    display: none;
+    font-size: 25px;
+    height: 30px;
+}
+
+#drop-area.over {
+    background: #cccccc;
+    border: 2px dashed #000;
+}
+
+#drop-area.over .drop-instructions {
+    display: none;
+}
+
+#drop-area.over .drop-over {
+    display: block;
+}
+
+#drop-area.over .drop-over {
+    display: block;
+    font-size: 25px;
+}
+
+#file-list {
+    list-style: none;
+    margin-bottom: 3em;
+}
+
+#file-list li {
+    border-bottom: 1px solid #000;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+    overflow: hidden;
+}
+
+#file-list div {
+    margin-bottom: 0.5em;
+}
+
+#file-list div div,
+#file-list div span {
+    float: left;
+}
+
+#file-list div div ul {
+    list-style: none;
+    padding: 0 20px 0 0;
+}
+
+#file-list div div ul li {
+    border: 0;
+}
+
+#file-list div span img {
+    max-width: 150px;
+}
